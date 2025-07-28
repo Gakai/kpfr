@@ -1,0 +1,26 @@
+{
+	"rust-analyzer.imports.granularity.enforce": true,
+	"rust-analyzer.imports.group.enable": true,
+	"rust-analyzer.imports.granularity.group": "module",
+	"rust-analyzer.imports.merge.glob": false,
+	"rust-analyzer.diagnostics.styleLints.enable": true,
+	"rust-analyzer.diagnostics.enable": true,
+	"rust-analyzer.hover.documentation.enable": true,
+	"rust-analyzer.hover.documentation.keywords.enable": true,
+	"rust-analyzer.hover.show.traitAssocItems": 20,
+	"rust-analyzer.hover.show.enumVariants": 20,
+	"rust-analyzer.hover.show.fields": 20,
+	"rust-analyzer.joinLines.unwrapTrivialBlock": true,
+	"rust-analyzer.joinLines.joinAssignments": true,
+	"rust-analyzer.joinLines.joinElseIf": true,
+	"rust-analyzer.joinLines.removeTrailingComma": false,
+	"rust-analyzer.completion.autoimport.enable": true,
+	"rust-analyzer.assist.preferSelf": true,
+	"rust-analyzer.check.command": "clippy",
+	"rust-analyzer.inlayHints.parameterHints.enable": false,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit",
+		"source.removeUnusedImports": "explicit"
+	}
+}
